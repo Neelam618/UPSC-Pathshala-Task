@@ -72,3 +72,12 @@
   letter-spacing: 0.5px;
   margin: auto;
   margin-top: 20px; }
+
+.video-section {
+  margin: 50px 0; }
+  .video-section .video-title {
+    margin-bottom: 30px;
+    font-size: 20px;
+    color: #312234; }
+  .video-section img {
+    max-width: 100%; }
