@@ -17,7 +17,7 @@ body{
 }
 
 .main {
-    margin-top: 70px;
+    margin-top: 90px;
 }
 .limited-seats {
     color: red;
@@ -187,7 +187,6 @@ body{
 
   }
 
-
 .intro-img{
     width: 400px;
 }
@@ -195,5 +194,14 @@ body{
     .title {
         font-size: 33px;
         margin-bottom: 30px;
+    }
+}
+
+@media screen and (max-width:584px){
+    .main{
+        margin-top: 20px;
+        .title{
+            font-size: 26px;
+        }
     }
 }

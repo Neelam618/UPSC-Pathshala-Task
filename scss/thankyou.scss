@@ -183,7 +183,7 @@
 
         img {
             width: 15px;
-            margin: 0 10px;
+            margin-right: 10px;
         }
     }
     .website-link {
@@ -194,13 +194,15 @@
     }
 }
 @media screen and (max-width:584px){
-    .newest-content .title{
-        font-size: 1.2rem!important;
-    }
+    .newest-content{
+        .title{
+            font-size: 1.2rem!important;
+        }
 
-    .newest-content .subtitle{
-        font-size: 1rem!important;
-        margin: 0 2px;
+        .subtitle{
+            font-size: 1rem!important;
+            margin: 0 2px;
+        }
     }
     .more-features {
         .feature-item {
@@ -208,4 +210,11 @@
             padding: 2px 3px;
         }
     }
+
+    .details-card {
+        .first-steps {
+            font-size: 18px;
+        }
+    }
+    
 }
