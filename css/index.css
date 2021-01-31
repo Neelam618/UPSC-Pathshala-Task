@@ -107,12 +107,12 @@ body {
 .select-items div, .select-selected {
   color: black;
   height: 50px;
-  padding: 8px 16px;
-  border: 1px solid #ced4da;
+  padding: 10px 16px;
   cursor: pointer; }
 
 .select-selected {
-  color: #808488; }
+  color: #212529;
+  border: 1px solid #ced4da; }
 
 /* Style items (options): */
 .select-items {
@@ -123,14 +123,16 @@ body {
   z-index: 99;
   background-color: white;
   color: black;
-  border-radius: 0 0 10px 10px; }
+  border-radius: 0 0 10px 10px;
+  border: 1px solid #ced4da; }
 
 /* Hide the items when the select box is closed: */
 .select-hide {
   display: none; }
 
 .select-items div:hover, .same-as-selected {
-  background-color: #f5e4e2; }
+  background-color: #f5e4e2;
+  border: 1px solid #ced4da; }
 
 .intro-img {
   width: 400px; }

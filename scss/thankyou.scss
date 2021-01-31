@@ -168,7 +168,6 @@
         max-width: 868px;
     }
 }
-
 .social-links {
     margin: 20px;
 
@@ -189,5 +188,10 @@
     }
     .youtube-btn {
         background-color: #f54131;
+    }
+}
+@media screen and (max-width:546px){
+    .newest-content .subtitle{
+        font-size: 1rem!important;
     }
 }
