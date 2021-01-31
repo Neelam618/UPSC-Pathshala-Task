@@ -97,3 +97,18 @@
       margin: 1.2em 0; }
       .newest-features .newest-content .mg-download-btn img {
         width: 20px; }
+
+.social-links button {
+  padding: 8px 20px;
+  border-radius: 10px;
+  border: none;
+  color: white; }
+  .social-links button img {
+    width: 15px;
+    margin: 0 10px; }
+
+.social-links .website-btn {
+  background-color: #f0a235; }
+
+.social-links .youtube-btn {
+  background-color: #f54131; }

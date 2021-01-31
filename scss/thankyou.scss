@@ -131,3 +131,26 @@
         }
       }
   }
+
+
+  
+.social-links{
+
+    button{
+      padding: 8px 20px;
+      border-radius: 10px;
+      border: none;
+      color: white;
+  
+      img{
+        width: 15px;
+        margin: 0 10px;
+      }
+    }
+    .website-btn{
+      background-color: #f0a235;
+    }
+    .youtube-btn{
+      background-color: #f54131;
+    }
+  }
