@@ -1,3 +1,25 @@
-.test {
-    color: black;
-}
+/* ==========================================================================
+    Form section
+   ========================================================================== */
+   .submit-btn{
+       display: block;
+       width: 100%;
+   }
+   .form-container{
+       border: 1px solid black;
+       border-radius: 20px;
+       width: 400px;
+   }
+   .form-floating>.form-control:focus{
+        box-shadow: none;
+        border-color: black;
+   }
+   .form-floating>.form-control:focus~label{
+    opacity: .65;
+    background: white;
+    transform: scale(.85) translateY(-1.75rem) translateX(.15rem);
+   }
+   .form-floating>label{
+   
+
+   }
