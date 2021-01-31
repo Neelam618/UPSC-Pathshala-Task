@@ -81,3 +81,19 @@
     color: #312234; }
   .video-section img {
     max-width: 100%; }
+
+.newest-features {
+  background-color: #ffece4;
+  margin: 20px 0; }
+  .newest-features .newest-content {
+    text-align: right; }
+    .newest-features .newest-content .mg-download-btn {
+      width: 320px;
+      background-color: #674999;
+      color: white;
+      padding: 8px;
+      border: none;
+      border-radius: 6px;
+      margin: 1.2em 0; }
+      .newest-features .newest-content .mg-download-btn img {
+        width: 20px; }
