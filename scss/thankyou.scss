@@ -1,0 +1,53 @@
+.main-logo {
+    font-size: 24px;
+    margin: 25px;
+  }
+  
+  .bold {
+    font-weight: bold;
+  }
+  
+  .details-card {
+    margin: auto;
+    margin-top: 10px;
+    border-radius: 10px;
+    max-width: 940px;
+    .first-steps {
+      font-size: 24px;
+      font-weight: bolder;
+      background-color: #ffece4;
+      color: #302234;
+      border-top-left-radius: 10px;
+      border-top-right-radius: 10px;
+    }
+    .next-steps {
+      padding-bottom: 20px;
+      margin-top: 10px;
+      font-size: 18px;
+      .steps-img {
+        img {
+          max-width: 100%;
+        }
+      }
+      .next-steps-content {
+        padding-left: 50px;
+        .title {
+          font-size: 26px;
+          margin-bottom: 10px;
+        }
+        .items {
+          max-width: 93%;
+          .item {
+            margin-bottom: 10px;
+            display: inline-flex;
+            .item-logo {
+              margin-right: 15px;
+              img {
+                height: 16px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
