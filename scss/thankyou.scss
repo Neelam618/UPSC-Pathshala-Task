@@ -88,7 +88,6 @@
         font-size: 21px;
         width: 92%;
         letter-spacing: 0.5px;
-        margin: auto;
         margin-top: 20px;
     }
 }
@@ -148,7 +147,7 @@
         padding: 14px 3px;
         border-radius: 8px;
         margin: 8px;
-        border: 2.5px solid black;
+        border: 2px solid black;
         font-weight: 500;
         &:first-child {
             padding-right: 6px;
@@ -196,7 +195,7 @@
 @media screen and (max-width:584px){
     .newest-content{
         .title{
-            font-size: 1.2rem!important;
+            font-size: 1.3rem!important;
         }
 
         .subtitle{
@@ -205,6 +204,10 @@
         }
     }
     .more-features {
+        .title{
+            font-size: 1.3rem!important;
+            font-weight: bold;
+        }
         .feature-item {
             font-size: 0.8rem;
             padding: 2px 3px;
@@ -212,8 +215,17 @@
     }
 
     .details-card {
+        .title{
+            font-size: 1.3rem!important;
+        }
         .first-steps {
             font-size: 18px;
+        }
+    }
+
+    .star-students{
+        .title{
+            font-size: 1.3rem!important;
         }
     }
     
