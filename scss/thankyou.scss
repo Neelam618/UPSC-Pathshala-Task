@@ -1,156 +1,195 @@
 .main-logo {
     font-size: 24px;
     margin: 25px;
-  }
-  
-  .bold {
+}
+
+.bold {
     font-weight: bold;
-  }
-  
-  .details-card {
+}
+
+.details-card {
     margin: auto;
     margin-top: 10px;
     border-radius: 10px;
     max-width: 940px;
     .first-steps {
-      font-size: 24px;
-      font-weight: bolder;
-      background-color: #ffece4;
-      color: #302234;
-      border-top-left-radius: 10px;
-      border-top-right-radius: 10px;
+        font-size: 24px;
+        font-weight: bolder;
+        background-color: #ffece4;
+        color: #302234;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
     }
     .next-steps {
-      padding-bottom: 20px;
-      margin-top: 10px;
-      font-size: 18px;
-      .steps-img {
-        img {
-          max-width: 100%;
-        }
-      }
-      .next-steps-content {
-        padding-left: 50px;
-        .title {
-          font-size: 26px;
-          margin-bottom: 10px;
-        }
-        .items {
-          max-width: 93%;
-          .item {
-            margin-bottom: 10px;
-            display: inline-flex;
-            .item-logo {
-              margin-right: 15px;
-              img {
-                height: 16px;
-              }
+        padding-bottom: 20px;
+        margin-top: 10px;
+        font-size: 18px;
+        .steps-img {
+            img {
+                max-width: 100%;
             }
-          }
         }
-      }
+        .next-steps-content {
+            padding-left: 50px;
+            .title {
+                font-size: 22px;
+                margin-bottom: 10px;
+            }
+            .items {
+                max-width: 93%;
+                .item {
+                    margin-bottom: 10px;
+                    display: inline-flex;
+                    .item-logo {
+                        margin-right: 15px;
+                        img {
+                            height: 16px;
+                        }
+                    }
+                }
+            }
+        }
     }
-  }
-  .title {
+}
+
+.title {
     font-weight: bold;
     font-size: 30px;
     margin: 25px 0;
     color: #312234;
-  }
-  .star-students {
+}
+
+.star-students {
     &--item {
-      background-color: #6d00ef;
-      border-radius: 8px;
-      padding: 35px 50px;
-      color: #f2e5fe;
-      text-align: left;
-      max-width: 660px;
-      margin: auto;
+        background-color: #6d00ef;
+        border-radius: 8px;
+        padding: 35px 50px;
+        color: #f2e5fe;
+        text-align: left;
+        max-width: 660px;
+        margin: auto;
     }
-  
     &--header {
-      img {
-        max-width: 100%;
-      }
+        img {
+            max-width: 100%;
+        }
     }
-  
     &--name {
-      margin-top: 5px;
-      font-size: 21px;
-      letter-spacing: 0.4px;
+        margin-top: 5px;
+        font-size: 21px;
+        letter-spacing: 0.4px;
     }
-  
     &--title {
-      font-weight: bold;
-      font-size: 20px;
-      margin-top: 8px;
+        font-weight: bold;
+        font-size: 20px;
+        margin-top: 8px;
     }
-  
     &--quote {
-      font-size: 21px;
-      width: 92%;
-      letter-spacing: 0.5px;
-      margin: auto;
-      margin-top: 20px;
+        font-size: 21px;
+        width: 92%;
+        letter-spacing: 0.5px;
+        margin: auto;
+        margin-top: 20px;
     }
-  }
-  .video-section {
+}
+
+.video-section {
     margin: 50px 0;
-  
     .video-title {
-      margin-bottom: 30px;
-      font-size: 20px;
-      color: #312234;
+        margin-bottom: 30px;
+        font-size: 20px;
+        color: #312234;
     }
-  
     img {
-      max-width: 100%;
+        max-width: 100%;
     }
-  }
-  
-  .newest-features {
+}
+
+.newest-features {
     background-color: #ffece4;
     margin: 20px 0;
-  
-      .newest-content{
-  
-        text-align: right;
-  
-        .mg-download-btn{
-      width: 320px;
-      background-color: #674999;
-      color: white;
-      padding: 8px;
-      border: none;
-      border-radius: 6px;
-      margin: 1.2em 0;
-  
-        img{
-          width: 20px;
-        }   
+    .newest-content {
+        .title {
+            font-size: 29px;
+            color: #302133;
         }
-      }
-  }
-
-
-  
-.social-links{
-
-    button{
-      padding: 8px 20px;
-      border-radius: 10px;
-      border: none;
-      color: white;
-  
-      img{
-        width: 15px;
-        margin: 0 10px;
-      }
+        .subtitle {
+            color: #333333;
+            font-size: 21px;
+        }
+        .newest-img {
+            img {
+                display: block;
+            }
+        }
+        .mg-download-btn {
+            background-color: #6f00f0;
+            color: white;
+            padding: 17px 45px;
+            border: none;
+            border-radius: 6px;
+            margin: 1.2em 0;
+            img {
+                width: 20px;
+            }
+        }
     }
-    .website-btn{
-      background-color: #f0a235;
+}
+
+.social-links {
+    button {
+        padding: 8px 20px;
+        border-radius: 10px;
+        border: none;
+        color: white;
+        img {
+            width: 15px;
+            margin: 0 10px;
+        }
     }
-    .youtube-btn{
-      background-color: #f54131;
+    .website-btn {
+        background-color: #f0a235;
     }
-  }
+    .youtube-btn {
+        background-color: #f54131;
+    }
+}
+
+.more-features {
+    .title {
+        font-size: 32px;
+        color: #302133;
+        font-weight: 500;
+    }
+    .feature-item {
+        padding: 14px 3px;
+        border-radius: 8px;
+        margin: 8px;
+        border: 2.5px solid black;
+        &:first-child {
+            padding-right: 6px;
+        }
+        &:last-child {
+            padding-left: 6px;
+        }
+    }
+    .row {
+        margin: auto;
+    }
+    .more-features-row-1 {
+        max-width: 1055px;
+    }
+    .more-features-row-2 {
+        max-width: 925px;
+    }
+    .more-features-row-3 {
+        max-width: 868px;
+    }
+}
+
+.social-links {
+    margin: 20px;
+    button {
+        margin: 8px;
+    }
+}

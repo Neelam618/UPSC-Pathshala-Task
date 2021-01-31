@@ -26,7 +26,7 @@
     .details-card .next-steps .next-steps-content {
       padding-left: 50px; }
       .details-card .next-steps .next-steps-content .title {
-        font-size: 26px;
+        font-size: 22px;
         margin-bottom: 10px; }
       .details-card .next-steps .next-steps-content .items {
         max-width: 93%; }
@@ -85,18 +85,23 @@
 .newest-features {
   background-color: #ffece4;
   margin: 20px 0; }
-  .newest-features .newest-content {
-    text-align: right; }
-    .newest-features .newest-content .mg-download-btn {
-      width: 320px;
-      background-color: #674999;
-      color: white;
-      padding: 8px;
-      border: none;
-      border-radius: 6px;
-      margin: 1.2em 0; }
-      .newest-features .newest-content .mg-download-btn img {
-        width: 20px; }
+  .newest-features .newest-content .title {
+    font-size: 29px;
+    color: #302133; }
+  .newest-features .newest-content .subtitle {
+    color: #333333;
+    font-size: 21px; }
+  .newest-features .newest-content .newest-img img {
+    display: block; }
+  .newest-features .newest-content .mg-download-btn {
+    background-color: #6f00f0;
+    color: white;
+    padding: 17px 45px;
+    border: none;
+    border-radius: 6px;
+    margin: 1.2em 0; }
+    .newest-features .newest-content .mg-download-btn img {
+      width: 20px; }
 
 .social-links button {
   padding: 8px 20px;
@@ -112,3 +117,35 @@
 
 .social-links .youtube-btn {
   background-color: #f54131; }
+
+.more-features .title {
+  font-size: 32px;
+  color: #302133;
+  font-weight: 500; }
+
+.more-features .feature-item {
+  padding: 14px 3px;
+  border-radius: 8px;
+  margin: 8px;
+  border: 2.5px solid black; }
+  .more-features .feature-item:first-child {
+    padding-right: 6px; }
+  .more-features .feature-item:last-child {
+    padding-left: 6px; }
+
+.more-features .row {
+  margin: auto; }
+
+.more-features .more-features-row-1 {
+  max-width: 1055px; }
+
+.more-features .more-features-row-2 {
+  max-width: 925px; }
+
+.more-features .more-features-row-3 {
+  max-width: 868px; }
+
+.social-links {
+  margin: 20px; }
+  .social-links button {
+    margin: 8px; }
