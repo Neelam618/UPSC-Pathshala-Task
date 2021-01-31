@@ -37,3 +37,38 @@
             margin-right: 15px; }
             .details-card .next-steps .next-steps-content .items .item .item-logo img {
               height: 16px; }
+
+.title {
+  font-weight: bold;
+  font-size: 30px;
+  margin: 25px 0;
+  color: #312234; }
+
+.star-students--item {
+  background-color: #6d00ef;
+  border-radius: 8px;
+  padding: 35px 50px;
+  color: #f2e5fe;
+  text-align: left;
+  max-width: 660px;
+  margin: auto; }
+
+.star-students--header img {
+  max-width: 100%; }
+
+.star-students--name {
+  margin-top: 5px;
+  font-size: 21px;
+  letter-spacing: 0.4px; }
+
+.star-students--title {
+  font-weight: bold;
+  font-size: 20px;
+  margin-top: 8px; }
+
+.star-students--quote {
+  font-size: 21px;
+  width: 92%;
+  letter-spacing: 0.5px;
+  margin: auto;
+  margin-top: 20px; }
