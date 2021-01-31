@@ -109,17 +109,21 @@
     background-color: #ffece4;
     margin: 20px 0;
     .newest-content {
+        padding-right: 15px;
         .title {
             font-size: 29px;
             color: #302133;
         }
         .subtitle {
             color: #333333;
-            font-size: 21px;
+            font-size: 20px;
+            font-weight: 500;
+            margin: 0 2px;
         }
         .newest-img {
             img {
                 display: block;
+                width: 100%;
             }
         }
         .mg-download-btn {
@@ -190,12 +194,12 @@
         background-color: #f54131;
     }
 }
-@media screen and (max-width:546px){
+@media screen and (max-width:584px){
     .newest-content .title{
-        font-size: 1.2rem!important;
+        font-size: 1.1rem!important;
     }
 
     .newest-content .subtitle{
-        font-size: 1.1rem!important;
+        font-size: 1rem!important;
     }
 }
