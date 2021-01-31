@@ -103,21 +103,6 @@
     .newest-features .newest-content .mg-download-btn img {
       width: 20px; }
 
-.social-links button {
-  padding: 8px 20px;
-  border-radius: 10px;
-  border: none;
-  color: white; }
-  .social-links button img {
-    width: 15px;
-    margin: 0 10px; }
-
-.social-links .website-btn {
-  background-color: #f0a235; }
-
-.social-links .youtube-btn {
-  background-color: #f54131; }
-
 .more-features .title {
   font-size: 32px;
   color: #302133;
@@ -127,7 +112,8 @@
   padding: 14px 3px;
   border-radius: 8px;
   margin: 8px;
-  border: 2.5px solid black; }
+  border: 2.5px solid black;
+  font-weight: 500; }
   .more-features .feature-item:first-child {
     padding-right: 6px; }
   .more-features .feature-item:last-child {
@@ -148,4 +134,15 @@
 .social-links {
   margin: 20px; }
   .social-links button {
+    padding: 8px 20px;
+    border-radius: 10px;
+    border: none;
+    color: white;
     margin: 8px; }
+    .social-links button img {
+      width: 15px;
+      margin: 0 10px; }
+  .social-links .website-btn {
+    background-color: #f0a235; }
+  .social-links .youtube-btn {
+    background-color: #f54131; }
