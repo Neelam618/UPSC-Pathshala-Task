@@ -2,7 +2,6 @@ $bgColorBody: #fff5f1;
 $colorRed: red;
 $formBgColorWhite:white;
 $colorWhite: white;
-$submitBtnBgColor: #af79f6;
 $colorGray: #979099;
 $formSelectBorderColor: #ced4da;
 
@@ -20,11 +19,6 @@ body{
 /* ==========================================================================
     Form section
    ========================================================================== */
-.submit-btn{
-    display: block;
-    width: 100%;
-}
-
 .main {
     margin-top: 90px;
 }
@@ -58,9 +52,11 @@ body{
     }
 
     .submit-btn {
-        height: 40px;
+        display: block;
+        width: 100%;
+        height: 50px;
         color: $colorWhite;
-        background-color: $submitBtnBgColor;
+        background: linear-gradient(to right, #6e00f1 70%, #894fd4);
         border-radius: 5px;
         outline: none;
         border: none;

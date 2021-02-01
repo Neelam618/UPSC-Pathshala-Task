@@ -60,7 +60,7 @@ $bgColorPink: #ffece4;
 
 .star-students {
     &--item {
-        background: linear-gradient(to right, #7300f1 70%, #7453f9);
+        background: linear-gradient(to right, #6e00f1 70%, #894fd4);
         border-radius: 8px;
         padding: 35px 50px;
         color: #f2e5fe;
@@ -183,6 +183,7 @@ $bgColorPink: #ffece4;
 .copyright-text{
     color: #302131;
 }
+
 @media screen and (max-width:992px){
     .title{
         font-size: 22px;
