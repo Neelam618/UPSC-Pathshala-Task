@@ -2,7 +2,6 @@ Deployed here: https://neelam618.github.io/UPSC-Pathshala-Task/
 
 # Known issues
 - The custom select input is not keyboard accessible
-- Color gradients are not used as per the design in some places
 
 # Local setup
 > This project uses Sass to manage styles.
