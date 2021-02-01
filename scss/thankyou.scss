@@ -1,3 +1,5 @@
+$bgColorPink: #ffece4;
+
 .main-logo {
     font-size: 24px;
     margin: 25px;
@@ -13,10 +15,9 @@
     border-radius: 10px;
     max-width: 940px;
     .first-steps {
-        font-size: 24px;
+        font-size: 28px;
         font-weight: bolder;
-        background-color: #ffece4;
-        color: #302234;
+        background-color: $bgColorPink;
         border-top-left-radius: 10px;
         border-top-right-radius: 10px;
     }
@@ -32,7 +33,6 @@
         .next-steps-content {
             padding-left: 50px;
             .title {
-                font-size: 22px;
                 margin-bottom: 10px;
             }
             .items {
@@ -56,7 +56,6 @@
     font-weight: bold;
     font-size: 30px;
     margin: 25px 0;
-    color: #312234;
 }
 
 .star-students {
@@ -97,7 +96,6 @@
     .video-title {
         margin-bottom: 30px;
         font-size: 20px;
-        color: #312234;
     }
     img {
         max-width: 100%;
@@ -105,15 +103,10 @@
 }
 
 .newest-features {
-    background-color: #ffece4;
+    background-color: $bgColorPink;
     margin: 20px 0;
     .newest-content {
-        .title {
-            font-size: 29px;
-            color: #302133;
-        }
         .subtitle {
-            color: #333333;
             font-size: 20px;
             font-weight: 500;
         }
@@ -138,11 +131,6 @@
 }
 
 .more-features {
-    .title {
-        font-size: 32px;
-        color: #302133;
-        font-weight: 500;
-    }
     .feature-item {
         padding: 14px 3px;
         border-radius: 8px;
@@ -196,21 +184,16 @@
     color: #302131;
 }
 @media screen and (max-width:992px){
+    .title{
+        font-size: 22px;
+    }
     .newest-content{
-        .title{
-            font-size: 1.3rem!important;
-        }
-
         .subtitle{
             font-size: 1rem!important;
             margin: 0 4px;
         }
     }
     .more-features {
-        .title{
-            font-size: 1.3rem!important;
-            font-weight: bold;
-        }
         .feature-item {
             font-size: 0.8rem;
             padding: 10px 3px;
@@ -218,9 +201,6 @@
     }
 
     .details-card {
-        .title{
-            font-size: 1.3rem!important;
-        }
         .first-steps {
             font-size: 18px;
         }
@@ -230,15 +210,11 @@
         &--item{
             padding: 25px 30px;
         }
-
-        .title{
-            // font-size: 1.3rem!important;
-        }
         &--name, &--title{
             font-size: 17px;
         }
         &--quote{
-            font-size: 16px;
+            font-size: 1rem;
         }
     }
     

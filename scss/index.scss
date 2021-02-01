@@ -180,15 +180,14 @@ body{
 
 }
   /* Hide the items when the select box is closed: */
-  .select-hide {
+.select-hide {
     display: none;
-  }
+}
   
-  .select-items div:hover, .same-as-selected {
+.select-items div:hover, .same-as-selected {
     background-color: #ffece4;
     border: 1px solid $formSelectBorderColor;
-
-  }
+}
 
 .intro-img{
     width: 400px;
